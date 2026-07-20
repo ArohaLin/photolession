@@ -17,7 +17,16 @@ import {
   type Work,
 } from '../store/works'
 import { WorkReview } from '../components/WorkReview'
-import { clearSos, listSos, removeSos, SOS_EVENT, type SosRecord } from '../store/sos'
+import {
+  clearSos,
+  isOpen,
+  listSos,
+  removeSos,
+  replySos,
+  setSosStatus,
+  SOS_EVENT,
+  type SosRecord,
+} from '../store/sos'
 
 export default function Parent() {
   const [authors, setAuthors] = useState<string[]>([])
@@ -26,6 +35,18 @@ export default function Parent() {
   const [, force] = useState(0)
   const [devUnlocked, setDevUnlocked] = useState(() => isDevUnlocked())
   const tapRef = useRef(0)
+  // 正在編輯回覆的求救 id，以及各筆回覆草稿
+  const [editingReply, setEditingReply] = useState<string | null>(null)
+  const [replyDraft, setReplyDraft] = useState<Record<string, string>>({})
+
+  const openReplyEditor = (s: SosRecord) => {
+    setReplyDraft((d) => ({ ...d, [s.id]: s.reply ?? '' }))
+    setEditingReply(s.id)
+  }
+  const saveReply = (id: string) => {
+    replySos(id, replyDraft[id] ?? '')
+    setEditingReply(null)
+  }
 
   // 隱私標題連點 10 下 → 誘導彈窗 → 伺服器驗證後才解鎖開發區塊
   const onPrivacyTap = () => {
@@ -85,6 +106,12 @@ export default function Parent() {
       .catch(() => setAuthors([]))
   }, [loadWorks])
 
+  const openCount = sos.filter(isOpen).length
+  // 待處理優先，其次時間新到舊
+  const sortedSos = [...sos].sort(
+    (a, b) => (isOpen(b) ? 1 : 0) - (isOpen(a) ? 1 : 0) || b.at - a.at,
+  )
+
   const clearAll = async () => {
     if (!window.confirm('確定要清除所有學習進度與作品照片嗎？此動作無法復原。')) return
     clearAllProgress()
@@ -102,9 +129,9 @@ export default function Parent() {
       <section className="rounded-3xl bg-white p-5 shadow">
         <h3 className="mb-2 flex items-center gap-2 font-black text-slate-700">
           🙋 求救訊息
-          {sos.length > 0 && (
+          {openCount > 0 && (
             <span className="rounded-full bg-rose-500 px-2 py-0.5 text-xs font-black text-white">
-              {sos.length}
+              {openCount}
             </span>
           )}
         </h3>
@@ -113,33 +140,123 @@ export default function Parent() {
         ) : (
           <>
             <div className="space-y-2">
-              {sos.map((s) => (
-                <div key={s.id} className="rounded-2xl bg-rose-50 p-3">
-                  <div className="flex items-start justify-between gap-2">
-                    <p className="font-bold text-rose-700">{s.reason}</p>
-                    <button
-                      type="button"
-                      onClick={() => removeSos(s.id)}
-                      aria-label="刪除"
-                      className="shrink-0 text-lg text-rose-300 active:scale-90"
-                    >
-                      🗑️
-                    </button>
+              {sortedSos.map((s) => {
+                const open = isOpen(s)
+                return (
+                  <div
+                    key={s.id}
+                    className={`rounded-2xl p-3 ${open ? 'bg-rose-50' : 'bg-slate-50'}`}
+                  >
+                    <div className="flex items-start justify-between gap-2">
+                      <p className={`font-bold ${open ? 'text-rose-700' : 'text-slate-400 line-through'}`}>
+                        {s.reason}
+                      </p>
+                      <div className="flex shrink-0 items-center gap-2">
+                        <span
+                          className={`rounded-full px-2 py-0.5 text-xs font-black ${
+                            open ? 'bg-amber-100 text-amber-700' : 'bg-green-100 text-green-700'
+                          }`}
+                        >
+                          {open ? '待處理' : '✅ 已解決'}
+                        </span>
+                        <button
+                          type="button"
+                          onClick={() => removeSos(s.id)}
+                          aria-label="刪除"
+                          className="text-lg text-rose-300 active:scale-90"
+                        >
+                          🗑️
+                        </button>
+                      </div>
+                    </div>
+                    {s.note && <p className="mt-1 text-sm text-slate-600">💬 {s.note}</p>}
+                    <p className="mt-1 text-xs text-slate-400">
+                      {s.ctx?.lessonId
+                        ? `${s.ctx.lessonTitle ?? s.ctx.lessonId}・第 ${s.ctx.stepIndex}/${s.ctx.stepCount} 步`
+                        : '非課程頁'}
+                      ・{new Date(s.at).toLocaleString('zh-TW', {
+                        month: 'numeric',
+                        day: 'numeric',
+                        hour: '2-digit',
+                        minute: '2-digit',
+                      })}
+                    </p>
+
+                    {/* 家長回覆 */}
+                    {editingReply === s.id ? (
+                      <div className="mt-2">
+                        <textarea
+                          value={replyDraft[s.id] ?? ''}
+                          onChange={(e) =>
+                            setReplyDraft((d) => ({ ...d, [s.id]: e.target.value }))
+                          }
+                          rows={2}
+                          placeholder="回覆或說明給小朋友…"
+                          className="w-full rounded-xl border-2 border-slate-200 p-2 text-sm outline-none focus:border-sky-400"
+                        />
+                        <div className="mt-1 flex gap-2">
+                          <button
+                            type="button"
+                            onClick={() => saveReply(s.id)}
+                            className="rounded-full bg-sky-500 px-4 py-1.5 text-xs font-black text-white active:scale-95"
+                          >
+                            儲存回覆
+                          </button>
+                          <button
+                            type="button"
+                            onClick={() => setEditingReply(null)}
+                            className="rounded-full bg-slate-200 px-4 py-1.5 text-xs font-bold text-slate-500 active:scale-95"
+                          >
+                            取消
+                          </button>
+                        </div>
+                      </div>
+                    ) : s.reply ? (
+                      <div className="mt-2 rounded-xl bg-sky-50 p-2">
+                        <p className="text-sm text-sky-800">💬 家長回覆：{s.reply}</p>
+                        <button
+                          type="button"
+                          onClick={() => openReplyEditor(s)}
+                          className="mt-1 text-xs text-sky-500 underline"
+                        >
+                          ✏️ 修改回覆
+                        </button>
+                      </div>
+                    ) : null}
+
+                    {/* 操作列：跳到問題位置、回覆、切換狀態 */}
+                    <div className="mt-2 flex flex-wrap items-center gap-2">
+                      {s.ctx?.lessonId && (
+                        <Link
+                          to={`/lesson/${s.ctx.lessonId}`}
+                          state={{ restoreStep: Math.max(0, (s.ctx.stepIndex ?? 1) - 1) }}
+                          className="rounded-full bg-white px-3 py-1.5 text-xs font-bold text-sky-600 shadow-sm active:scale-95"
+                        >
+                          ↪️ 去看這一步
+                        </Link>
+                      )}
+                      {editingReply !== s.id && !s.reply && (
+                        <button
+                          type="button"
+                          onClick={() => openReplyEditor(s)}
+                          className="rounded-full bg-white px-3 py-1.5 text-xs font-bold text-slate-600 shadow-sm active:scale-95"
+                        >
+                          💬 回覆
+                        </button>
+                      )}
+                      <button
+                        type="button"
+                        onClick={() => setSosStatus(s.id, open ? 'resolved' : 'open')}
+                        className={`rounded-full px-3 py-1.5 text-xs font-black text-white shadow-sm active:scale-95 ${
+                          open ? 'bg-green-500' : 'bg-amber-500'
+                        }`}
+                      >
+                        {open ? '✅ 標記已解決' : '↩️ 改回待處理'}
+                      </button>
+                    </div>
                   </div>
-                  {s.note && <p className="mt-1 text-sm text-slate-600">💬 {s.note}</p>}
-                  <p className="mt-1 text-xs text-slate-400">
-                    {s.ctx?.lessonId
-                      ? `${s.ctx.lessonTitle ?? s.ctx.lessonId}・第 ${s.ctx.stepIndex}/${s.ctx.stepCount} 步`
-                      : '非課程頁'}
-                    ・{new Date(s.at).toLocaleString('zh-TW', {
-                      month: 'numeric',
-                      day: 'numeric',
-                      hour: '2-digit',
-                      minute: '2-digit',
-                    })}
-                  </p>
-                </div>
-              ))}
+                )
+              })}
             </div>
             <button
               type="button"

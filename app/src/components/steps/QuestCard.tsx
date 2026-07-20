@@ -47,12 +47,13 @@ export function QuestCard({ step, onDone, lessonId }: StepProps) {
   }, [reload])
 
   const onFile = async (e: React.ChangeEvent<HTMLInputElement>) => {
-    const file = e.target.files?.[0]
-    if (!file) return
+    const files = Array.from(e.target.files ?? [])
+    if (!files.length) return
     setSaving(true)
     try {
       const done = checklist.filter((_, i) => checked[i])
-      await addWork(lessonId, file, done, step.card)
+      // 從相簿可一次選多張；拍照一次一張
+      for (const file of files) await addWork(lessonId, file, done, step.card)
       await reload()
     } finally {
       setSaving(false)
@@ -114,12 +115,30 @@ export function QuestCard({ step, onDone, lessonId }: StepProps) {
         </ul>
       )}
 
-      {/* 拍照：叫出相機，存到本機 */}
+      {/* 拍照 / 選照片：都存到本機。相機直接拍；相簿可一次選多張 */}
       <div className="mt-4">
-        <label className="flex min-h-12 cursor-pointer items-center justify-center gap-2 rounded-full bg-sky-500 px-6 py-3 text-lg font-black text-white shadow-lg active:scale-95">
-          {saving ? '收藏中…' : '📷 拍照片 / 選照片'}
-          <input type="file" accept="image/*" capture="environment" onChange={onFile} className="hidden" />
-        </label>
+        {saving ? (
+          <div className="flex min-h-12 items-center justify-center gap-2 rounded-full bg-sky-400 px-6 py-3 text-lg font-black text-white shadow-lg">
+            收藏中…
+          </div>
+        ) : (
+          <div className="flex gap-3">
+            <label className="flex min-h-12 flex-1 cursor-pointer items-center justify-center gap-2 rounded-full bg-sky-500 px-4 py-3 text-base font-black text-white shadow-lg active:scale-95">
+              📷 拍照
+              <input
+                type="file"
+                accept="image/*"
+                capture="environment"
+                onChange={onFile}
+                className="hidden"
+              />
+            </label>
+            <label className="flex min-h-12 flex-1 cursor-pointer items-center justify-center gap-2 rounded-full bg-violet-500 px-4 py-3 text-base font-black text-white shadow-lg active:scale-95">
+              🖼️ 選照片
+              <input type="file" accept="image/*" multiple onChange={onFile} className="hidden" />
+            </label>
+          </div>
+        )}
         <p className="mt-2 text-center text-xs text-slate-400">
           🔒 照片只會存在這台裝置，不會上傳到網路。
         </p>

@@ -9,12 +9,24 @@ export interface SosCtx {
   device?: string
 }
 
+export type SosStatus = 'open' | 'resolved'
+
 export interface SosRecord {
   id: string
   at: number
   reason: string
   note?: string
   ctx?: SosCtx
+  /** 處理狀態；缺省（舊資料）一律視為待處理 'open' */
+  status?: SosStatus
+  /** 家長回覆 */
+  reply?: string
+  repliedAt?: number
+}
+
+/** 待處理＝非 resolved（含缺省的舊資料） */
+export function isOpen(r: SosRecord): boolean {
+  return r.status !== 'resolved'
 }
 
 const KEY = 'slp.sos.v1'
@@ -59,6 +71,28 @@ export function addSos(reason: string, note: string | undefined, ctx: SosCtx): v
 
 export function removeSos(id: string): void {
   write(read().filter((r) => r.id !== id))
+}
+
+/** 待處理筆數（badge 用） */
+export function openSosCount(): number {
+  return read().filter(isOpen).length
+}
+
+/** 設定處理狀態：待處理 / 已解決 */
+export function setSosStatus(id: string, status: SosStatus): void {
+  write(read().map((r) => (r.id === id ? { ...r, status } : r)))
+}
+
+/** 家長回覆（空字串＝清除回覆） */
+export function replySos(id: string, reply: string): void {
+  const text = reply.trim()
+  write(
+    read().map((r) =>
+      r.id === id
+        ? { ...r, reply: text || undefined, repliedAt: text ? Date.now() : undefined }
+        : r,
+    ),
+  )
 }
 
 export function clearSos(): void {
