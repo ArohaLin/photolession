@@ -115,30 +115,12 @@ export function QuestCard({ step, onDone, lessonId }: StepProps) {
         </ul>
       )}
 
-      {/* 拍照 / 選照片：都存到本機。相機直接拍；相簿可一次選多張 */}
+      {/* 拍照 / 選照片：一顆按鈕，點了由系統三選一（照相／相簿／瀏覽）。相簿可一次選多張 */}
       <div className="mt-4">
-        {saving ? (
-          <div className="flex min-h-12 items-center justify-center gap-2 rounded-full bg-sky-400 px-6 py-3 text-lg font-black text-white shadow-lg">
-            收藏中…
-          </div>
-        ) : (
-          <div className="flex gap-3">
-            <label className="flex min-h-12 flex-1 cursor-pointer items-center justify-center gap-2 rounded-full bg-sky-500 px-4 py-3 text-base font-black text-white shadow-lg active:scale-95">
-              📷 拍照
-              <input
-                type="file"
-                accept="image/*"
-                capture="environment"
-                onChange={onFile}
-                className="hidden"
-              />
-            </label>
-            <label className="flex min-h-12 flex-1 cursor-pointer items-center justify-center gap-2 rounded-full bg-violet-500 px-4 py-3 text-base font-black text-white shadow-lg active:scale-95">
-              🖼️ 選照片
-              <input type="file" accept="image/*" multiple onChange={onFile} className="hidden" />
-            </label>
-          </div>
-        )}
+        <label className="flex min-h-12 cursor-pointer items-center justify-center gap-2 rounded-full bg-sky-500 px-6 py-3 text-lg font-black text-white shadow-lg active:scale-95">
+          {saving ? '收藏中…' : '📷 拍照 / 選照片'}
+          <input type="file" accept="image/*" multiple onChange={onFile} className="hidden" />
+        </label>
         <p className="mt-2 text-center text-xs text-slate-400">
           🔒 照片只會存在這台裝置，不會上傳到網路。
         </p>
