@@ -1,0 +1,24 @@
+{
+  "photo": "px-10010698",
+  "usable": true,
+  "teachability": 9,
+  "concepts": [
+    "D3"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "石頭上的小情侶公仔",
+    "bbox": [
+      0.3,
+      0.2,
+      0.45,
+      0.5
+    ]
+  },
+  "kid_prompt": "把玩具放在大石頭上，它們好像真的在海邊約會！",
+  "curator_note": "玩具說故事：場景擺拍。"
+}

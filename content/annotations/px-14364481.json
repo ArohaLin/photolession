@@ -1,0 +1,24 @@
+{
+  "photo": "px-14364481",
+  "usable": true,
+  "teachability": 9,
+  "concepts": [
+    "C12"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "紅衣小孩",
+    "bbox": [
+      0.22,
+      0.28,
+      0.35,
+      0.5
+    ]
+  },
+  "kid_prompt": "綠綠的苔蘚石頭上，紅外套亮得像小燈籠——紅配綠，主角超跳！",
+  "curator_note": "互補色紅綠＋兒童主角。"
+}

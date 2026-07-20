@@ -1,0 +1,24 @@
+{
+  "photo": "px-19595725",
+  "usable": true,
+  "teachability": 8,
+  "concepts": [
+    "B1"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "滑板車小孩剪影",
+    "bbox": [
+      0.3,
+      0.3,
+      0.4,
+      0.5
+    ]
+  },
+  "kid_prompt": "背對夕陽，小朋友變成黑黑的剪影。",
+  "curator_note": "B1 測驗新剪影（換掉與示範重複的照片）。"
+}

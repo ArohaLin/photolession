@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.vercel/
+.venv/
+pipeline/work/
+pipeline/.env
+app/public/content/
+__pycache__/
+*.pyc
+.DS_Store
+
+.vercel

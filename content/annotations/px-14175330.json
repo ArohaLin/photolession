@@ -1,0 +1,24 @@
+{
+  "photo": "px-14175330",
+  "usable": true,
+  "teachability": 8,
+  "concepts": [
+    "B7"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "背窗的人",
+    "bbox": [
+      0.18,
+      0.16,
+      0.55,
+      0.74
+    ]
+  },
+  "kid_prompt": "背對窗戶坐，人就變暗、快變剪影了。",
+  "curator_note": "背窗變暗示例，與面窗成對比。"
+}

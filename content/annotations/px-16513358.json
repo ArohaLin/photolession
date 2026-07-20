@@ -1,0 +1,25 @@
+{
+  "photo": "px-16513358",
+  "usable": true,
+  "teachability": 9,
+  "concepts": [
+    "B1"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "男子側臉",
+    "bbox": [
+      0.3,
+      0.14,
+      0.44,
+      0.62
+    ]
+  },
+  "light_type": "backlight",
+  "kid_prompt": "太陽在他後面，人就變成黑黑的影子，這叫「剪影」。",
+  "curator_note": "逆光剪影經典：夕陽在主角背後，主角變全黑輪廓。"
+}

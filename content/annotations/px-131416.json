@@ -1,0 +1,48 @@
+{
+  "photo": "px-131416",
+  "usable": true,
+  "teachability": 7,
+  "concepts": [
+    "C1",
+    "C2"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "綠頭鴨",
+    "bbox": [
+      0.33,
+      0.54,
+      0.26,
+      0.27
+    ]
+  },
+  "distractions": [
+    {
+      "label": "水面上的第二隻鴨",
+      "bbox": [
+        0.55,
+        0.47,
+        0.11,
+        0.09
+      ]
+    }
+  ],
+  "suggested_crops": [
+    {
+      "concept": "B2",
+      "rect": [
+        0.27,
+        0.47,
+        0.4,
+        0.42
+      ],
+      "why": "靠近讓前景的鴨子成為明顯主角"
+    }
+  ],
+  "kid_prompt": "前面這隻漂亮的綠頭鴨是主角，靠近拍拍牠！",
+  "curator_note": "B1/B2：前景綠頭鴨為主角，後方水面另有一隻鴨可作干擾對比。"
+}

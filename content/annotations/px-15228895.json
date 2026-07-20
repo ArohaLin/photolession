@@ -1,0 +1,24 @@
+{
+  "photo": "px-15228895",
+  "usable": true,
+  "teachability": 9,
+  "concepts": [
+    "D2"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "跳起來接球的狗",
+    "bbox": [
+      0.35,
+      0.15,
+      0.3,
+      0.6
+    ]
+  },
+  "kid_prompt": "狗狗跳到半空中接球——這種瞬間要連拍才抓得到！",
+  "curator_note": "動態瞬間：跳躍接球，連拍教材。"
+}

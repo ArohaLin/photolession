@@ -1,0 +1,24 @@
+{
+  "photo": "px-1499539",
+  "usable": true,
+  "teachability": 9,
+  "concepts": [
+    "B3"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "車燈光軌",
+    "bbox": [
+      0.1,
+      0.2,
+      0.8,
+      0.6
+    ]
+  },
+  "kid_prompt": "慢快門讓車燈變成一條條光的河流！",
+  "curator_note": "B3 真實慢快門示範：夜間車軌長曝。"
+}

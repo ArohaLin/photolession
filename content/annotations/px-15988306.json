@@ -1,0 +1,17 @@
+{
+  "photo": "px-15988306",
+  "usable": true,
+  "teachability": 8,
+  "concepts": [
+    "D4"
+  ],
+  "subject": {
+    "label": "旅行"
+  },
+  "curator_note": "TRAVEL 去重補充",
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  }
+}

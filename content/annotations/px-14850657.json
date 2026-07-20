@@ -1,0 +1,24 @@
+{
+  "photo": "px-14850657",
+  "usable": true,
+  "teachability": 8,
+  "concepts": [
+    "C4"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "寬廣的湖景",
+    "bbox": [
+      0.05,
+      0.3,
+      0.9,
+      0.4
+    ]
+  },
+  "kid_prompt": "平靜的湖水往兩邊延伸，好寬好廣。",
+  "curator_note": "B4：寬廣風景，最適合橫幅。"
+}

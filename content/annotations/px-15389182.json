@@ -1,0 +1,24 @@
+{
+  "photo": "px-15389182",
+  "usable": true,
+  "teachability": 7,
+  "concepts": [
+    "C12"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "融進背景的人",
+    "bbox": [
+      0.35,
+      0.3,
+      0.3,
+      0.55
+    ]
+  },
+  "kid_prompt": "深色衣服站在深色樹林前，主角快看不見了。",
+  "curator_note": "反例：同色系主角不跳。"
+}

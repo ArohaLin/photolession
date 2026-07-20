@@ -1,0 +1,36 @@
+{
+  "photo": "px-34005705",
+  "usable": true,
+  "teachability": 8,
+  "concepts": [
+    "C2"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "白狗",
+    "bbox": [
+      0.28,
+      0.62,
+      0.25,
+      0.11
+    ]
+  },
+  "suggested_crops": [
+    {
+      "concept": "B2",
+      "rect": [
+        0.22,
+        0.54,
+        0.4,
+        0.26
+      ],
+      "why": "靠近後小狗變成明顯主角"
+    }
+  ],
+  "kid_prompt": "草地好大，小狗好小，我們靠近牠一點！",
+  "curator_note": "B2 before：白狗躺在大草地只占一點點，靠近後才看得清楚。"
+}

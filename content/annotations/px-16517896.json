@@ -1,0 +1,24 @@
+{
+  "photo": "px-16517896",
+  "usable": true,
+  "teachability": 7,
+  "concepts": [
+    "C4"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "燈塔",
+    "bbox": [
+      0.38,
+      0.08,
+      0.24,
+      0.86
+    ]
+  },
+  "kid_prompt": "燈塔高高地站著，指向天空。",
+  "curator_note": "B4：高聳主體，直幅示範。"
+}

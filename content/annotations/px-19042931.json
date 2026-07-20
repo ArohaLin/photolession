@@ -1,0 +1,25 @@
+{
+  "photo": "px-19042931",
+  "usable": true,
+  "teachability": 8,
+  "concepts": [
+    "B1"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "地上的長影子",
+    "bbox": [
+      0.3,
+      0.55,
+      0.4,
+      0.42
+    ]
+  },
+  "light_type": "longshadow",
+  "kid_prompt": "太陽低低的時候，影子會被拉得好長好長！",
+  "curator_note": "長影子範例：低角度陽光把人的影子拉長，趣味構圖。"
+}

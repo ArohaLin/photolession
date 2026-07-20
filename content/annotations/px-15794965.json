@@ -1,0 +1,25 @@
+{
+  "photo": "px-15794965",
+  "usable": true,
+  "teachability": 9,
+  "concepts": [
+    "C9",
+    "D2"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "跟小狗一樣高",
+    "bbox": [
+      0.28,
+      0.2,
+      0.45,
+      0.65
+    ]
+  },
+  "kid_prompt": "蹲下來跟狗狗一樣高，才看得到牠眼中的世界。",
+  "curator_note": "同高視角狗狗，草叢平視。"
+}

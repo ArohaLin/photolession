@@ -1,0 +1,24 @@
+{
+  "photo": "px-15383472",
+  "usable": true,
+  "teachability": 8,
+  "concepts": [
+    "C8"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "側臉的小孩",
+    "bbox": [
+      0.3,
+      0.16,
+      0.52,
+      0.74
+    ]
+  },
+  "kid_prompt": "小孩側臉望向一邊，望過去的地方要留白。",
+  "curator_note": "B8：柔光側臉，視線方向清楚。"
+}

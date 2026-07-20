@@ -1,0 +1,17 @@
+{
+  "photo": "px-37446570",
+  "usable": true,
+  "teachability": 8,
+  "concepts": [
+    "C6"
+  ],
+  "subject": {
+    "label": "引導線"
+  },
+  "curator_note": "LEADLINE 去重補充",
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  }
+}

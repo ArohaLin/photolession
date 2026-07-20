@@ -1,0 +1,25 @@
+{
+  "photo": "px-17695167",
+  "usable": true,
+  "teachability": 8,
+  "concepts": [
+    "B1"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "紅髮女孩",
+    "bbox": [
+      0.34,
+      0.16,
+      0.42,
+      0.8
+    ]
+  },
+  "light_type": "side",
+  "kid_prompt": "光從側邊來，一半臉亮、一半臉暗，是不是很有立體感？",
+  "curator_note": "側光範例：光從側面來，明暗各半，立體、有戲劇感。"
+}

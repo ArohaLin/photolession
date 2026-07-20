@@ -1,0 +1,24 @@
+{
+  "photo": "px-32697461",
+  "usable": true,
+  "teachability": 9,
+  "concepts": [
+    "D2"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "躍起接球的狗",
+    "bbox": [
+      0.3,
+      0.15,
+      0.4,
+      0.6
+    ]
+  },
+  "kid_prompt": "狗狗跳得好高接球——連拍才抓得到！",
+  "curator_note": "D2 連拍挑格素材（與 A6 區隔）。"
+}

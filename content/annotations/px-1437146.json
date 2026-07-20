@@ -1,0 +1,24 @@
+{
+  "photo": "px-1437146",
+  "usable": true,
+  "teachability": 8,
+  "concepts": [
+    "B2"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "女孩",
+    "bbox": [
+      0.3,
+      0.14,
+      0.42,
+      0.82
+    ]
+  },
+  "kid_prompt": "看！這張的背景本來就糊糊的，主角好突出。",
+  "curator_note": "A2 對照組（真實淺景深，不去背）：竹林人像，示範「大光圈」效果長怎樣。"
+}

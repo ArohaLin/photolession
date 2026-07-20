@@ -1,0 +1,24 @@
+{
+  "photo": "px-37138155",
+  "usable": true,
+  "teachability": 8,
+  "concepts": [
+    "B8"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "陰天的湖邊公園",
+    "bbox": [
+      0.15,
+      0.35,
+      0.7,
+      0.45
+    ]
+  },
+  "kid_prompt": "陰天像蓋了一層大柔光罩，顏色軟軟的。",
+  "curator_note": "陰天柔光：雲層厚、無硬影。"
+}

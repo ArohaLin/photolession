@@ -1,0 +1,24 @@
+{
+  "photo": "px-11667359",
+  "usable": true,
+  "teachability": 8,
+  "concepts": [
+    "D5"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "湖邊的夕陽剪影",
+    "bbox": [
+      0.55,
+      0.5,
+      0.25,
+      0.35
+    ]
+  },
+  "kid_prompt": "傍晚拍湖邊的人，變成安靜的剪影。",
+  "curator_note": "夕陽剪影實戰（呼應 B1）。"
+}

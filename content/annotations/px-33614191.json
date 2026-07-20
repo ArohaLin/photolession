@@ -1,0 +1,25 @@
+{
+  "photo": "px-33614191",
+  "usable": true,
+  "teachability": 7,
+  "concepts": [
+    "B1"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "貓",
+    "bbox": [
+      0.3,
+      0.28,
+      0.45,
+      0.62
+    ]
+  },
+  "light_type": "front",
+  "kid_prompt": "太陽從我們這邊照過去，貓咪的臉是不是很清楚、很亮？",
+  "curator_note": "順光範例：光從相機方向照向主角，臉部明亮、顏色鮮豔。"
+}

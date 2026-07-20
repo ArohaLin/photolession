@@ -1,0 +1,25 @@
+{
+  "photo": "px-8014461",
+  "usable": true,
+  "teachability": 8,
+  "concepts": [
+    "B2"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "恐龍玩具",
+    "bbox": [
+      0.22,
+      0.34,
+      0.54,
+      0.36
+    ]
+  },
+  "kid_prompt": "在家裡也可以拍！把玩具放桌上，後面放遠一點。",
+  "curator_note": "A2 去背主體（玩具主題，孩子可在家模仿）：恐龍玩具、桌面乾淨。",
+  "mask": "px-8014461-mask.png"
+}

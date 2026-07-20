@@ -1,0 +1,17 @@
+{
+  "photo": "px-16948923",
+  "usable": true,
+  "teachability": 8,
+  "concepts": [
+    "D2"
+  ],
+  "subject": {
+    "label": "寵物"
+  },
+  "curator_note": "PET 去重補充",
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  }
+}

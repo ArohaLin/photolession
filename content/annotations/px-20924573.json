@@ -1,0 +1,17 @@
+{
+  "photo": "px-20924573",
+  "usable": true,
+  "teachability": 8,
+  "concepts": [
+    "C11"
+  ],
+  "subject": {
+    "label": "重複圖案"
+  },
+  "curator_note": "PATTERN 去重補充",
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  }
+}

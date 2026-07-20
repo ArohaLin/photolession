@@ -1,0 +1,17 @@
+{
+  "photo": "px-29677964",
+  "usable": true,
+  "teachability": 8,
+  "concepts": [
+    "C7"
+  ],
+  "subject": {
+    "label": "框景"
+  },
+  "curator_note": "FRAME 去重補充",
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  }
+}

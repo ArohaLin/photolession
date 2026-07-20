@@ -1,0 +1,24 @@
+{
+  "photo": "px-13013833",
+  "usable": true,
+  "teachability": 9,
+  "concepts": [
+    "D1"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "大笑的兄妹",
+    "bbox": [
+      0.2,
+      0.15,
+      0.6,
+      0.75
+    ]
+  },
+  "kid_prompt": "背著妹妹笑到瞇眼——這種照片才有故事！",
+  "curator_note": "自然抓拍：真實大笑互動。"
+}

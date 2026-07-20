@@ -1,0 +1,24 @@
+{
+  "photo": "px-13539093",
+  "usable": true,
+  "teachability": 9,
+  "concepts": [
+    "C7"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "拱門框住的神殿",
+    "bbox": [
+      0.36,
+      0.33,
+      0.3,
+      0.44
+    ]
+  },
+  "kid_prompt": "石頭拱門像一個畫框，把遠方的神殿柱子框在中間。",
+  "curator_note": "B7：拱門框景最典型，框內主體清楚。"
+}

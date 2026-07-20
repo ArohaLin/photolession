@@ -1,0 +1,24 @@
+{
+  "photo": "px-14714262",
+  "usable": true,
+  "teachability": 7,
+  "concepts": [
+    "C10"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "白牆上的小煙囪",
+    "bbox": [
+      0.72,
+      0.3,
+      0.22,
+      0.4
+    ]
+  },
+  "kid_prompt": "幾乎整張都是藍天白牆，小小的主角反而超顯眼。",
+  "curator_note": "極簡：藍天白牆＋單一物件。"
+}

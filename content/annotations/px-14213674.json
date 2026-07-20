@@ -1,0 +1,24 @@
+{
+  "photo": "px-14213674",
+  "usable": true,
+  "teachability": 9,
+  "concepts": [
+    "C6"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "小徑的盡頭",
+    "bbox": [
+      0.42,
+      0.05,
+      0.22,
+      0.18
+    ]
+  },
+  "kid_prompt": "順著木棧道往前看，眼睛被帶到最遠的那一點。",
+  "curator_note": "B6：木棧道兩側收斂、消失點在上方中央。"
+}

@@ -1,0 +1,24 @@
+{
+  "photo": "px-13231129",
+  "usable": true,
+  "teachability": 9,
+  "concepts": [
+    "B7"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "窗邊的女孩",
+    "bbox": [
+      0.3,
+      0.22,
+      0.52,
+      0.66
+    ]
+  },
+  "kid_prompt": "她面向窗戶，柔柔的光照亮整張臉。",
+  "curator_note": "面窗＝柔光人像經典；含窗簾生活感。"
+}

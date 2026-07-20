@@ -1,0 +1,25 @@
+{
+  "photo": "px-1291489",
+  "usable": true,
+  "teachability": 8,
+  "concepts": [
+    "B1"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "花叢與夕陽",
+    "bbox": [
+      0.3,
+      0.3,
+      0.45,
+      0.55
+    ]
+  },
+  "light_type": "backlight",
+  "kid_prompt": "傍晚的陽光暖暖的、金金的，這叫「黃金時刻」。",
+  "curator_note": "黃金時刻逆光氛圍：傍晚暖光穿過花叢，光線最美的時段。"
+}

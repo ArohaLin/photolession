@@ -1,0 +1,24 @@
+{
+  "photo": "px-12824123",
+  "usable": true,
+  "teachability": 9,
+  "concepts": [
+    "D4"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "手捧太陽",
+    "bbox": [
+      0.25,
+      0.2,
+      0.55,
+      0.65
+    ]
+  },
+  "kid_prompt": "站對位置，太陽就像被捧在手心——錯位魔術照！",
+  "curator_note": "forced perspective 經典。"
+}

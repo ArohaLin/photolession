@@ -1,0 +1,36 @@
+{
+  "photo": "px-36629552",
+  "usable": true,
+  "teachability": 9,
+  "concepts": [
+    "B8"
+  ],
+  "safety": {
+    "brands": true,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "大太陽下的行人",
+    "bbox": [
+      0.42,
+      0.3,
+      0.4,
+      0.55
+    ]
+  },
+  "kid_prompt": "正中午的太陽好強，影子又黑又硬！",
+  "curator_note": "正午硬光硬影：街頭高對比，長硬影。",
+  "suggested_crops": [
+    {
+      "concept": "B8",
+      "rect": [
+        0.05,
+        0.28,
+        0.9,
+        0.68
+      ],
+      "why": "裁掉左上方招牌，保留硬光影"
+    }
+  ]
+}

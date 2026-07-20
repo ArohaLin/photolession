@@ -1,0 +1,25 @@
+{
+  "photo": "px-34771338",
+  "usable": true,
+  "teachability": 9,
+  "concepts": [
+    "B1"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "舉球的小孩",
+    "bbox": [
+      0.32,
+      0.3,
+      0.34,
+      0.6
+    ]
+  },
+  "light_type": "backlight",
+  "kid_prompt": "背對太陽，小朋友也變成剪影了！你也可以這樣拍。",
+  "curator_note": "逆光剪影，孩子能模仿：背對夕陽舉手，變黑色輪廓。"
+}

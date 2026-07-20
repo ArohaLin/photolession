@@ -1,0 +1,3 @@
+httpx>=0.27
+Pillow>=10.1
+# mask.py 另需（S2 才裝，體積大）：rembg onnxruntime

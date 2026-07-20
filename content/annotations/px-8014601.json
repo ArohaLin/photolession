@@ -1,0 +1,24 @@
+{
+  "photo": "px-8014601",
+  "usable": true,
+  "teachability": 7,
+  "concepts": [
+    "B2"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "一排恐龍",
+    "bbox": [
+      0.1,
+      0.45,
+      0.8,
+      0.45
+    ]
+  },
+  "kid_prompt": "想要每一隻都清楚，就要用「小光圈」喔。",
+  "curator_note": "A2 對照組（大景深需求）：多隻恐龍在不同距離，示範「要全部清楚」的情境。"
+}

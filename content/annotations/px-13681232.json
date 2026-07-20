@@ -1,0 +1,24 @@
+{
+  "photo": "px-13681232",
+  "usable": true,
+  "teachability": 8,
+  "concepts": [
+    "C6"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "公路的盡頭",
+    "bbox": [
+      0.4,
+      0.55,
+      0.2,
+      0.14
+    ]
+  },
+  "kid_prompt": "馬路中間的線把你的眼睛一路帶到天邊。",
+  "curator_note": "B6：公路中線＋戲劇天空，消失點在地平線中央。"
+}

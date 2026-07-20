@@ -1,0 +1,24 @@
+{
+  "photo": "px-14455168",
+  "usable": true,
+  "teachability": 8,
+  "concepts": [
+    "C6"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "長廊盡頭走路的人",
+    "bbox": [
+      0.42,
+      0.45,
+      0.16,
+      0.3
+    ]
+  },
+  "kid_prompt": "長廊的線一路把眼睛帶到走路的人身上。",
+  "curator_note": "C6 結構性補圖：全庫唯一「線指向人物」示範。"
+}

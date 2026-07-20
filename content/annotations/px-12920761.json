@@ -1,0 +1,24 @@
+{
+  "photo": "px-12920761",
+  "usable": true,
+  "teachability": 7,
+  "concepts": [
+    "C12"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "黃色的世界",
+    "bbox": [
+      0.1,
+      0.3,
+      0.8,
+      0.5
+    ]
+  },
+  "kid_prompt": "整張只有黃色——只拍一種顏色也很酷！",
+  "curator_note": "單色調（黃）靜物。"
+}

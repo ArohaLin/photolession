@@ -1,0 +1,24 @@
+{
+  "photo": "px-7929549",
+  "usable": true,
+  "teachability": 8,
+  "concepts": [
+    "D6"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "樹幹上的兩個小玩偶",
+    "bbox": [
+      0.35,
+      0.4,
+      0.3,
+      0.25
+    ]
+  },
+  "kid_prompt": "主角好小好遠，要用腳走近一點！",
+  "curator_note": "D6 tiny 病例：主角天然又小又遠，effect none。"
+}

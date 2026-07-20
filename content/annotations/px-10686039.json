@@ -1,0 +1,24 @@
+{
+  "photo": "px-10686039",
+  "usable": true,
+  "teachability": 8,
+  "concepts": [
+    "C12"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "紅點在綠林",
+    "bbox": [
+      0.4,
+      0.3,
+      0.2,
+      0.4
+    ]
+  },
+  "kid_prompt": "森林裡的一件紅外套，遠遠就看到。",
+  "curator_note": "紅綠互補：小紅點效應。"
+}

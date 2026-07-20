@@ -1,0 +1,24 @@
+{
+  "photo": "px-17609740",
+  "usable": true,
+  "teachability": 8,
+  "concepts": [
+    "D3"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "45 度拍蛋糕",
+    "bbox": [
+      0.2,
+      0.3,
+      0.6,
+      0.5
+    ]
+  },
+  "kid_prompt": "斜斜 45 度拍，看得到蛋糕的層次，最好吃的角度！",
+  "curator_note": "45° 食物經典角度。"
+}

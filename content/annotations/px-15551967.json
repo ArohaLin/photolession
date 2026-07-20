@@ -1,0 +1,24 @@
+{
+  "photo": "px-15551967",
+  "usable": true,
+  "teachability": 7,
+  "concepts": [
+    "D1"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "排排站合照",
+    "bbox": [
+      0.1,
+      0.1,
+      0.8,
+      0.85
+    ]
+  },
+  "kid_prompt": "大家排好看鏡頭，整齊但有點僵硬。",
+  "curator_note": "擺拍對照組：正式家庭照。"
+}

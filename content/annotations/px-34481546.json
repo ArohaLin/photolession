@@ -1,0 +1,17 @@
+{
+  "photo": "px-34481546",
+  "usable": true,
+  "teachability": 8,
+  "concepts": [
+    "C12"
+  ],
+  "subject": {
+    "label": "色彩"
+  },
+  "curator_note": "COLOR 去重補充",
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  }
+}

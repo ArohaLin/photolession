@@ -1,0 +1,24 @@
+{
+  "photo": "px-12176126",
+  "usable": true,
+  "teachability": 8,
+  "concepts": [
+    "D1"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "髮絲發光的人",
+    "bbox": [
+      0.55,
+      0.1,
+      0.4,
+      0.85
+    ]
+  },
+  "kid_prompt": "傍晚逆光讓頭髮邊邊發金光，好夢幻！",
+  "curator_note": "逆光髮絲光人像。"
+}

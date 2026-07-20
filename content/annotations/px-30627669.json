@@ -1,0 +1,17 @@
+{
+  "photo": "px-30627669",
+  "usable": true,
+  "teachability": 8,
+  "concepts": [
+    "C9"
+  ],
+  "subject": {
+    "label": "視角"
+  },
+  "curator_note": "VIEWPOINT 去重補充",
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  }
+}

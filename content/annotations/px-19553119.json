@@ -1,0 +1,24 @@
+{
+  "photo": "px-19553119",
+  "usable": true,
+  "teachability": 8,
+  "concepts": [
+    "C11"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "彩色車庫門",
+    "bbox": [
+      0.1,
+      0.2,
+      0.8,
+      0.6
+    ]
+  },
+  "kid_prompt": "綠、紅、藍的門一個接一個，像彩色琴鍵。",
+  "curator_note": "重複圖案：車庫門排列。"
+}

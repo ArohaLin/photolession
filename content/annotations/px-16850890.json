@@ -1,0 +1,17 @@
+{
+  "photo": "px-16850890",
+  "usable": true,
+  "teachability": 7,
+  "concepts": [
+    "C1"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "distractions": [],
+  "no_single_subject": true,
+  "kid_prompt": "咦，這張的主角是誰呢？好多人喔，有點難找！",
+  "curator_note": "B1 反例（主角不明）：遊樂場好多小孩，沒有單一主角，示範「先決定主角」。"
+}

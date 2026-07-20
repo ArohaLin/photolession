@@ -1,0 +1,24 @@
+{
+  "photo": "px-17671395",
+  "usable": true,
+  "teachability": 8,
+  "concepts": [
+    "D3"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "俯拍咖啡桌",
+    "bbox": [
+      0.15,
+      0.2,
+      0.7,
+      0.6
+    ]
+  },
+  "kid_prompt": "從正上方拍，桌上的咖啡和蛋糕變成一幅畫。",
+  "curator_note": "俯拍 90°食物。"
+}

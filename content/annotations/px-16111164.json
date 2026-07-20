@@ -1,0 +1,25 @@
+{
+  "photo": "px-16111164",
+  "usable": true,
+  "teachability": 8,
+  "concepts": [
+    "D4",
+    "A6"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "海灘全景",
+    "bbox": [
+      0.1,
+      0.3,
+      0.8,
+      0.5
+    ]
+  },
+  "kid_prompt": "海邊好寬好寬，全景模式最適合！",
+  "curator_note": "寬幅海灘：兼 A6 全景素材。"
+}

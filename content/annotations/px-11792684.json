@@ -1,0 +1,37 @@
+{
+  "photo": "px-11792684",
+  "usable": true,
+  "teachability": 9,
+  "concepts": [
+    "C2"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "小男孩",
+    "bbox": [
+      0.63,
+      0.52,
+      0.12,
+      0.44
+    ],
+    "focus": [0.67, 0.56]
+  },
+  "suggested_crops": [
+    {
+      "concept": "B2",
+      "rect": [
+        0.52,
+        0.5,
+        0.36,
+        0.45
+      ],
+      "why": "靠近後主角約占畫面 1/3，看得清楚表情"
+    }
+  ],
+  "kid_prompt": "小朋友好小喔，走近一點讓他變大！",
+  "curator_note": "B2 完美 before：主角只占 5%，示範「用腳靠近」讓主角變大。"
+}

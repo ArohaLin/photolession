@@ -1,0 +1,24 @@
+{
+  "photo": "px-1870642",
+  "usable": true,
+  "teachability": 8,
+  "concepts": [
+    "C3"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "牧羊犬",
+    "bbox": [
+      0.3,
+      0.34,
+      0.42,
+      0.46
+    ]
+  },
+  "kid_prompt": "主角是這隻站著的狗，但旁邊有人的腳在搶鏡。",
+  "curator_note": "B3：主角清楚、邊緣有路人腿，示範裁掉邊邊雜物。"
+}

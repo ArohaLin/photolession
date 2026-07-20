@@ -1,0 +1,24 @@
+{
+  "photo": "px-1413476",
+  "usable": true,
+  "teachability": 7,
+  "concepts": [
+    "D4"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "眼鏡框住太陽",
+    "bbox": [
+      0.25,
+      0.2,
+      0.5,
+      0.55
+    ]
+  },
+  "kid_prompt": "用眼鏡把太陽框起來，創意錯位照。",
+  "curator_note": "forced perspective 變化型。"
+}

@@ -1,0 +1,25 @@
+{
+  "photo": "px-13062658",
+  "usable": true,
+  "teachability": 9,
+  "concepts": [
+    "B2"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "柴犬",
+    "bbox": [
+      0.3,
+      0.18,
+      0.4,
+      0.74
+    ]
+  },
+  "kid_prompt": "小狗好清楚，後面的樹木糊糊的，主角就跳出來了！",
+  "curator_note": "A2 去背主體：柴犬正面清楚、背景森林有深度，景深模擬最佳範例。",
+  "mask": "px-13062658-mask.png"
+}

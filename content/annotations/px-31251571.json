@@ -1,0 +1,24 @@
+{
+  "photo": "px-31251571",
+  "usable": true,
+  "teachability": 8,
+  "concepts": [
+    "D3"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "千層蛋糕 45 度",
+    "bbox": [
+      0.25,
+      0.25,
+      0.5,
+      0.5
+    ]
+  },
+  "kid_prompt": "45 度拍才看得到一層一層的側面！",
+  "curator_note": "D3 45° 新題組（層次＝考點）。"
+}

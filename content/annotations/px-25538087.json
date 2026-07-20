@@ -1,0 +1,24 @@
+{
+  "photo": "px-25538087",
+  "usable": true,
+  "teachability": 7,
+  "concepts": [
+    "C3"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "小狗",
+    "bbox": [
+      0.34,
+      0.42,
+      0.46,
+      0.46
+    ]
+  },
+  "kid_prompt": "趴著的小狗是主角，後面一堆人的腳很亂。",
+  "curator_note": "B3：主角討喜、背景人腳雜亂於邊緣。"
+}

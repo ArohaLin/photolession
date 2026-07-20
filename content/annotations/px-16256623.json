@@ -1,0 +1,25 @@
+{
+  "photo": "px-16256623",
+  "usable": true,
+  "teachability": 9,
+  "concepts": [
+    "C1",
+    "C2"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "黑白貓",
+    "bbox": [
+      0.16,
+      0.3,
+      0.53,
+      0.5
+    ]
+  },
+  "kid_prompt": "一眼就看到貓咪！這就是清楚的主角。",
+  "curator_note": "B1 明確主角：黑白貓占畫面大、背景乾淨，一眼認出主角。"
+}

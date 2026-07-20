@@ -1,0 +1,24 @@
+{
+  "photo": "px-19189493",
+  "usable": true,
+  "teachability": 8,
+  "concepts": [
+    "C11"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "黃色門搗蛋鬼",
+    "bbox": [
+      0.26,
+      0.42,
+      0.14,
+      0.42
+    ]
+  },
+  "kid_prompt": "三扇門裡，哪一扇顏色跟別人不一樣？",
+  "curator_note": "藍牆三門：黃/橘紅/暗紅，黃門為破格（左側）。"
+}

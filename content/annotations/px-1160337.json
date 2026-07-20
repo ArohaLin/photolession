@@ -1,0 +1,24 @@
+{
+  "photo": "px-1160337",
+  "usable": true,
+  "teachability": 8,
+  "concepts": [
+    "C9"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "從上面看小狗",
+    "bbox": [
+      0.15,
+      0.25,
+      0.5,
+      0.55
+    ]
+  },
+  "kid_prompt": "站著往下拍，狗狗變得小小的、一直抬頭看你。",
+  "curator_note": "俯拍狗狗＝與同高視角成對比。"
+}

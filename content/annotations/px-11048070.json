@@ -1,0 +1,24 @@
+{
+  "photo": "px-11048070",
+  "usable": true,
+  "teachability": 9,
+  "concepts": [
+    "C10"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "對稱軸（水面線）",
+    "bbox": [
+      0.02,
+      0.5,
+      0.96,
+      0.1
+    ]
+  },
+  "kid_prompt": "山倒映在水裡，上下像照鏡子——中間那條線就是對稱軸！",
+  "curator_note": "山湖倒影；軸＝水面線，bbox 為窄橫條。"
+}

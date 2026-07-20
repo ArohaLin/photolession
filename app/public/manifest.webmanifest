@@ -1,0 +1,13 @@
+{
+  "name": "小小攝影師",
+  "short_name": "小小攝影師",
+  "description": "給小朋友的手機攝影學習 App",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f9ddda",
+  "theme_color": "#f9ddda",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

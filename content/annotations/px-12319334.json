@@ -1,0 +1,24 @@
+{
+  "photo": "px-12319334",
+  "usable": true,
+  "teachability": 8,
+  "concepts": [
+    "C12"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "橘藍牆",
+    "bbox": [
+      0.05,
+      0.1,
+      0.9,
+      0.8
+    ]
+  },
+  "kid_prompt": "橘色和藍綠色是對面的好朋友，放一起特別有精神。",
+  "curator_note": "互補色橘藍平面構成。"
+}

@@ -1,0 +1,17 @@
+{
+  "photo": "px-2663654",
+  "usable": true,
+  "teachability": 8,
+  "concepts": [
+    "C8"
+  ],
+  "subject": {
+    "label": "留白"
+  },
+  "curator_note": "NEGSPACE 去重補充",
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  }
+}

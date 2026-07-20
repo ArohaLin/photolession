@@ -1,0 +1,17 @@
+{
+  "photo": "px-17164626",
+  "usable": true,
+  "teachability": 8,
+  "concepts": [
+    "D1"
+  ],
+  "subject": {
+    "label": "人像"
+  },
+  "curator_note": "PORTRAIT 去重補充",
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  }
+}

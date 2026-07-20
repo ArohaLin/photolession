@@ -1,0 +1,24 @@
+{
+  "photo": "px-17964383",
+  "usable": true,
+  "teachability": 8,
+  "concepts": [
+    "C6"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "長堤的盡頭",
+    "bbox": [
+      0.37,
+      0.12,
+      0.2,
+      0.17
+    ]
+  },
+  "kid_prompt": "沿著長長的堤防看過去，盡頭通到遠方。",
+  "curator_note": "B6：斜向長堤引導線，消失點在上方中央。"
+}

@@ -1,0 +1,24 @@
+{
+  "photo": "px-1334446",
+  "usable": true,
+  "teachability": 9,
+  "concepts": [
+    "D5"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "花朵前景的山景",
+    "bbox": [
+      0.1,
+      0.45,
+      0.5,
+      0.5
+    ]
+  },
+  "kid_prompt": "前面放一叢花，山景立刻有了近、中、遠三層！",
+  "curator_note": "前景層次：野花＋暮色山。"
+}

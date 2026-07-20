@@ -1,0 +1,25 @@
+{
+  "photo": "px-1630923",
+  "usable": true,
+  "teachability": 8,
+  "concepts": [
+    "C9",
+    "D3"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "從正上方看餐桌",
+    "bbox": [
+      0.1,
+      0.1,
+      0.8,
+      0.8
+    ]
+  },
+  "kid_prompt": "把手機平平地舉在正上方拍，早餐變成一幅畫。",
+  "curator_note": "flat lay 俯拍餐桌，兼 D3 食物。"
+}

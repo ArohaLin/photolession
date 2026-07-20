@@ -1,0 +1,24 @@
+{
+  "photo": "px-18911914",
+  "usable": true,
+  "teachability": 9,
+  "concepts": [
+    "B9"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "夜裡最亮的攤位",
+    "bbox": [
+      0.42,
+      0.28,
+      0.5,
+      0.55
+    ]
+  },
+  "kid_prompt": "整條街暗暗的，只有攤位亮亮的——主角站這裡最清楚！",
+  "curator_note": "夜市攤位＝找光教材；亮暗對比強。"
+}

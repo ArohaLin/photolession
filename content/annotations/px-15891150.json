@@ -1,0 +1,24 @@
+{
+  "photo": "px-15891150",
+  "usable": true,
+  "teachability": 7,
+  "concepts": [
+    "D3"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "甜點下午茶",
+    "bbox": [
+      0.1,
+      0.15,
+      0.8,
+      0.7
+    ]
+  },
+  "kid_prompt": "把盤子排整齊再拍，畫面就不亂。",
+  "curator_note": "俯拍甜點桌（略斜）。"
+}

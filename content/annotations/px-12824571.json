@@ -1,0 +1,24 @@
+{
+  "photo": "px-12824571",
+  "usable": true,
+  "teachability": 8,
+  "concepts": [
+    "C7"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "樹枝框住的海",
+    "bbox": [
+      0.25,
+      0.2,
+      0.55,
+      0.65
+    ]
+  },
+  "kid_prompt": "上下的樹枝像畫框，把藍藍的海框起來。",
+  "curator_note": "B7：自然框景（樹枝），色彩鮮明。"
+}

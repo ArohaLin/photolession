@@ -1,0 +1,24 @@
+{
+  "photo": "px-13798548",
+  "usable": true,
+  "teachability": 9,
+  "concepts": [
+    "D4"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "老城廣場（大景）",
+    "bbox": [
+      0.35,
+      0.25,
+      0.4,
+      0.55
+    ]
+  },
+  "kid_prompt": "先拍一張看得到整個廣場的大景！",
+  "curator_note": "高解析俯瞰廣場：可裁鐘塔中景/人群細節＝一景三張。"
+}

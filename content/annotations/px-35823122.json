@@ -1,0 +1,17 @@
+{
+  "photo": "px-35823122",
+  "usable": true,
+  "teachability": 8,
+  "concepts": [
+    "D5"
+  ],
+  "subject": {
+    "label": "風景"
+  },
+  "curator_note": "LANDSCAPE 去重補充",
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  }
+}

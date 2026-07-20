@@ -1,0 +1,24 @@
+{
+  "photo": "px-11459055",
+  "usable": true,
+  "teachability": 8,
+  "concepts": [
+    "C9"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "抬頭看大樓",
+    "bbox": [
+      0.25,
+      0.1,
+      0.5,
+      0.5
+    ]
+  },
+  "kid_prompt": "站在大樓中間往上拍，大樓變成巨人！",
+  "curator_note": "蟲視角仰拍摩天樓。"
+}

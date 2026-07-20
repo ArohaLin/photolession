@@ -1,0 +1,24 @@
+{
+  "photo": "px-21369468",
+  "usable": true,
+  "teachability": 8,
+  "concepts": [
+    "C3"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "盪鞦韆的小孩",
+    "bbox": [
+      0.24,
+      0.28,
+      0.44,
+      0.56
+    ]
+  },
+  "kid_prompt": "主角是盪鞦韆的小妹妹，旁邊有大人和招牌跑進來。",
+  "curator_note": "B3：可愛主角＋邊緣招牌/手臂干擾。"
+}

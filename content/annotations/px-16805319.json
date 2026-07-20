@@ -1,0 +1,24 @@
+{
+  "photo": "px-16805319",
+  "usable": true,
+  "teachability": 8,
+  "concepts": [
+    "B8"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "白天的草原",
+    "bbox": [
+      0.1,
+      0.3,
+      0.8,
+      0.6
+    ]
+  },
+  "kid_prompt": "大白天的草原，顏色最正常。",
+  "curator_note": "B8 TempSlider 中性底圖：綠草藍天，冷暖色罩效果最清楚。"
+}

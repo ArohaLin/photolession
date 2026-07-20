@@ -1,0 +1,25 @@
+{
+  "photo": "px-10386452",
+  "usable": true,
+  "teachability": 8,
+  "concepts": [
+    "C11",
+    "C12"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "橘色傘跳出來",
+    "bbox": [
+      0.3,
+      0.1,
+      0.45,
+      0.5
+    ]
+  },
+  "kid_prompt": "藍綠色傘海裡的橘色傘，一眼就看到它！",
+  "curator_note": "圖案＋互補色（橘藍）雙用。"
+}

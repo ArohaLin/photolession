@@ -1,0 +1,24 @@
+{
+  "photo": "px-11879413",
+  "usable": true,
+  "teachability": 8,
+  "concepts": [
+    "C10"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "一棵孤單的樹",
+    "bbox": [
+      0.55,
+      0.35,
+      0.2,
+      0.3
+    ]
+  },
+  "kid_prompt": "大大的天空和草原，只有一棵小樹——留白讓照片好安靜。",
+  "curator_note": "極簡留白：孤樹大空景。"
+}

@@ -1,0 +1,24 @@
+{
+  "photo": "px-12681089",
+  "usable": true,
+  "teachability": 8,
+  "concepts": [
+    "B9"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "燈籠下的攤子",
+    "bbox": [
+      0.18,
+      0.25,
+      0.55,
+      0.6
+    ]
+  },
+  "kid_prompt": "紅燈籠和招牌把攤子照得好亮。",
+  "curator_note": "夜市燈下攤位，暖光聚集處。"
+}

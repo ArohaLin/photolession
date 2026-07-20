@@ -1,0 +1,16 @@
+{
+  "photo": "px-17296469",
+  "usable": true,
+  "teachability": 7,
+  "concepts": [
+    "C1"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "no_single_subject": true,
+  "kid_prompt": "這張好熱鬧，可是找不到一個主角對不對？",
+  "curator_note": "B1 反例（太亂）：跳蚤市場人群，畫面滿滿、沒有焦點。"
+}

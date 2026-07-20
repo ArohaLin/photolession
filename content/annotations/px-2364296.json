@@ -1,0 +1,37 @@
+{
+  "photo": "px-2364296",
+  "usable": true,
+  "teachability": 8,
+  "concepts": [
+    "C2"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "小狗",
+    "bbox": [
+      0.35,
+      0.36,
+      0.33,
+      0.48
+    ],
+    "focus": [0.5, 0.44]
+  },
+  "suggested_crops": [
+    {
+      "concept": "B2",
+      "rect": [
+        0.3,
+        0.3,
+        0.44,
+        0.58
+      ],
+      "why": "靠近讓吐舌頭的小狗填滿畫面"
+    }
+  ],
+  "kid_prompt": "小狗趴在草地上吐舌頭，靠近拍牠開心的樣子。",
+  "curator_note": "B2：傑克羅素梗趴草地、旁邊有網球，主角討喜，示範靠近。"
+}

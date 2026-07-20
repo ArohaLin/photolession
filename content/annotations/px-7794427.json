@@ -1,0 +1,24 @@
+{
+  "photo": "px-7794427",
+  "usable": true,
+  "teachability": 9,
+  "concepts": [
+    "C11"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "紅磚搗蛋鬼",
+    "bbox": [
+      0.603,
+      0.59,
+      0.09,
+      0.12
+    ]
+  },
+  "kid_prompt": "整片一樣的磁磚裡，只有一塊紅色的！",
+  "curator_note": "C11 破格最純示範：磁磚陣＋唯一紅格（bbox 待 overlay 校正）。"
+}

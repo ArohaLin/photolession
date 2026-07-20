@@ -1,0 +1,24 @@
+{
+  "photo": "px-10210455",
+  "usable": true,
+  "teachability": 8,
+  "concepts": [
+    "C8"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "黃色小汽車",
+    "bbox": [
+      0.28,
+      0.42,
+      0.34,
+      0.3
+    ]
+  },
+  "kid_prompt": "小汽車正往前開，車頭前面要留空間。",
+  "curator_note": "B8：移動主體（車），前進方向明確、顏色亮眼。"
+}

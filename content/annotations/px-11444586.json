@@ -1,0 +1,67 @@
+{
+  "photo": "px-11444586",
+  "usable": true,
+  "teachability": 8,
+  "concepts": [
+    "C1",
+    "C2",
+    "C3"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "牧羊犬",
+    "bbox": [
+      0.36,
+      0.37,
+      0.49,
+      0.38
+    ]
+  },
+  "distractions": [
+    {
+      "label": "後面的人",
+      "bbox": [
+        0.5,
+        0.03,
+        0.13,
+        0.22
+      ]
+    },
+    {
+      "label": "後面的狗",
+      "bbox": [
+        0.6,
+        0.13,
+        0.25,
+        0.22
+      ]
+    },
+    {
+      "label": "左邊的狗",
+      "bbox": [
+        0.31,
+        0.15,
+        0.1,
+        0.1
+      ]
+    }
+  ],
+  "suggested_crops": [
+    {
+      "concept": "B2",
+      "rect": [
+        0.33,
+        0.36,
+        0.6,
+        0.6
+      ],
+      "why": "只框主角狗，後面的人和狗就不入鏡了"
+    }
+  ],
+  "kid_prompt": "前面這隻大狗是主角，後面還有小狗和人喔。",
+  "curator_note": "一圖三用：B1 主角明確、B2 可再靠近、B3 背景有干擾物（人與其他狗）。"
+}

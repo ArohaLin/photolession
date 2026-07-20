@@ -1,0 +1,24 @@
+{
+  "photo": "px-15554313",
+  "usable": true,
+  "teachability": 9,
+  "concepts": [
+    "C8"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "側臉的男孩",
+    "bbox": [
+      0.24,
+      0.14,
+      0.52,
+      0.82
+    ]
+  },
+  "kid_prompt": "男孩側著臉往上看，看的方向要留空間。",
+  "curator_note": "B8：清楚側臉，視線方向明確（往上/前）。"
+}

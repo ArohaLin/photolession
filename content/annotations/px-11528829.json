@@ -1,0 +1,24 @@
+{
+  "photo": "px-11528829",
+  "usable": true,
+  "teachability": 8,
+  "concepts": [
+    "C7"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "窗戶框住的街道",
+    "bbox": [
+      0.3,
+      0.42,
+      0.46,
+      0.46
+    ]
+  },
+  "kid_prompt": "從窗戶看出去，窗框把街道框成一幅畫。",
+  "curator_note": "B7：窗戶框景，生活感強、好理解。"
+}

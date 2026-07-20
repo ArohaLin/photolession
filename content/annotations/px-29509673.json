@@ -1,0 +1,24 @@
+{
+  "photo": "px-29509673",
+  "usable": true,
+  "teachability": 9,
+  "concepts": [
+    "B3"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "絲綢瀑布",
+    "bbox": [
+      0.25,
+      0.15,
+      0.5,
+      0.7
+    ]
+  },
+  "kid_prompt": "慢快門把流水拉成柔柔的絲綢！",
+  "curator_note": "B3 真實慢快門示範：白天明亮版絲綢瀑布。"
+}

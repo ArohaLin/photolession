@@ -1,0 +1,24 @@
+{
+  "photo": "px-11958784",
+  "usable": true,
+  "teachability": 7,
+  "concepts": [
+    "B6"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "城市光球",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  "kid_prompt": "背景燈光變成一顆顆彩色光球，好夢幻。",
+  "curator_note": "A6：純 bokeh，示範背景虛化長什麼樣。"
+}

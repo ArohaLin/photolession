@@ -1,0 +1,16 @@
+{
+  "photo": "px-1745747",
+  "usable": true,
+  "teachability": 6,
+  "concepts": [
+    "C1"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "no_single_subject": true,
+  "kid_prompt": "東西太多了，眼睛不知道要看哪裡！",
+  "curator_note": "B1 反例（太雜）：市集攤販商品堆滿，示範「沒有主角的照片會亂」。"
+}

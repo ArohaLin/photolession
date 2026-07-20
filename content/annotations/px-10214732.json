@@ -1,0 +1,24 @@
+{
+  "photo": "px-10214732",
+  "usable": true,
+  "teachability": 9,
+  "concepts": [
+    "B1"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "順光的笑臉",
+    "bbox": [
+      0.15,
+      0.1,
+      0.7,
+      0.8
+    ]
+  },
+  "kid_prompt": "太陽從你這邊照過去，她的臉又亮又清楚！",
+  "curator_note": "B1 純順光示範（替換原側窗光誤標圖），兒童大笑感染力強。"
+}

@@ -1,0 +1,25 @@
+{
+  "photo": "px-12963205",
+  "usable": true,
+  "teachability": 7,
+  "concepts": [
+    "B1"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "橘白貓",
+    "bbox": [
+      0.3,
+      0.4,
+      0.34,
+      0.52
+    ]
+  },
+  "light_type": "side",
+  "kid_prompt": "窗戶的光在貓咪身上畫出一條一條的影子，好特別！",
+  "curator_note": "側光＋光影：百葉窗側光在主角身上形成光影條紋。"
+}

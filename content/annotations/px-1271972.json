@@ -1,0 +1,24 @@
+{
+  "photo": "px-1271972",
+  "usable": true,
+  "teachability": 9,
+  "concepts": [
+    "B6"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "夜景人像",
+    "bbox": [
+      0.42,
+      0.22,
+      0.42,
+      0.7
+    ]
+  },
+  "kid_prompt": "人清楚、後面的城市燈光糊成一顆顆光球，這就是人像模式。",
+  "curator_note": "A6：人像模式＋夜景 bokeh 最佳示範。"
+}

@@ -1,0 +1,24 @@
+{
+  "photo": "px-15436154",
+  "usable": true,
+  "teachability": 7,
+  "concepts": [
+    "B9"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "房間裡的檯燈",
+    "bbox": [
+      0.42,
+      0.18,
+      0.4,
+      0.5
+    ]
+  },
+  "kid_prompt": "晚上在家，檯燈旁邊就是最好的拍照位置。",
+  "curator_note": "室內昏暗＋單一暖光源。"
+}

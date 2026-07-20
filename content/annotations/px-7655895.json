@@ -1,0 +1,17 @@
+{
+  "photo": "px-7655895",
+  "usable": true,
+  "teachability": 8,
+  "concepts": [
+    "D3"
+  ],
+  "subject": {
+    "label": "食物"
+  },
+  "curator_note": "FOOD 去重補充",
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  }
+}

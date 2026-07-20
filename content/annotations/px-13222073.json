@@ -1,0 +1,25 @@
+{
+  "photo": "px-13222073",
+  "usable": true,
+  "teachability": 8,
+  "concepts": [
+    "C1",
+    "C6"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "拉繩的男孩",
+    "bbox": [
+      0.2,
+      0.08,
+      0.42,
+      0.88
+    ]
+  },
+  "kid_prompt": "主角是這個用力拉繩子的小朋友！",
+  "curator_note": "B1 明確主角（繩子日後可作 B6 引導線）：男孩占比大、表情生動。"
+}

@@ -1,0 +1,24 @@
+{
+  "photo": "px-11925732",
+  "usable": true,
+  "teachability": 9,
+  "concepts": [
+    "C11"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "紅傘搗蛋鬼",
+    "bbox": [
+      0.28,
+      0.66,
+      0.23,
+      0.16
+    ]
+  },
+  "kid_prompt": "整條街都是黑黑的傘，只有一把紅色的——找到搗蛋鬼了嗎？",
+  "curator_note": "破格經典：雨街黑傘群中一把紅傘（在中下偏左）。"
+}

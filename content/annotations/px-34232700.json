@@ -1,0 +1,24 @@
+{
+  "photo": "px-34232700",
+  "usable": true,
+  "teachability": 8,
+  "concepts": [
+    "B8"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "藍調時刻的城市",
+    "bbox": [
+      0.3,
+      0.2,
+      0.55,
+      0.4
+    ]
+  },
+  "kid_prompt": "太陽剛下山，天空變成藍藍的，燈亮起來了。",
+  "curator_note": "藍調時刻：日落後冷藍天＋城市燈。"
+}

@@ -1,0 +1,25 @@
+{
+  "photo": "px-18201403",
+  "usable": true,
+  "teachability": 9,
+  "concepts": [
+    "B2"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "牧羊犬",
+    "bbox": [
+      0.3,
+      0.34,
+      0.4,
+      0.54
+    ]
+  },
+  "kid_prompt": "小狗坐在路中間，後面的路糊掉了，眼睛只看得到牠。",
+  "curator_note": "A2 去背主體：澳洲牧羊犬正面坐小徑，背景本身已虛化，示範清楚。",
+  "mask": "px-18201403-mask.png"
+}

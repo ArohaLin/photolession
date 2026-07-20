@@ -1,0 +1,17 @@
+{
+  "photo": "px-16599762",
+  "usable": true,
+  "teachability": 8,
+  "concepts": [
+    "C10"
+  ],
+  "subject": {
+    "label": "對稱倒影"
+  },
+  "curator_note": "SYMMETRY 去重補充",
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  }
+}

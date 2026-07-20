@@ -1,0 +1,24 @@
+{
+  "photo": "px-12044802",
+  "usable": true,
+  "teachability": 9,
+  "concepts": [
+    "C9"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "從天上看海灘",
+    "bbox": [
+      0.1,
+      0.1,
+      0.8,
+      0.8
+    ]
+  },
+  "kid_prompt": "從正上方看，海灘的傘變成彩色小圓點！",
+  "curator_note": "鳥瞰海灘傘陣，色彩繽紛。"
+}

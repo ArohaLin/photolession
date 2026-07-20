@@ -1,0 +1,24 @@
+{
+  "photo": "px-14279589",
+  "usable": true,
+  "teachability": 7,
+  "concepts": [
+    "C7"
+  ],
+  "safety": {
+    "brands": false,
+    "text": false,
+    "risky": false
+  },
+  "subject": {
+    "label": "樹葉框住的天空",
+    "bbox": [
+      0.34,
+      0.3,
+      0.36,
+      0.4
+    ]
+  },
+  "kid_prompt": "抬頭看，樹葉圍出一塊天空。",
+  "curator_note": "B7：仰拍樹冠框天空，自然框景。"
+}
